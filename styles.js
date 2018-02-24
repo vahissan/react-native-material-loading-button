@@ -11,11 +11,15 @@ export default styles = StyleSheet.create({
     fontSize: 14,
     color: '#ffffff'
   },
+  loadingText: {
+    marginLeft: 6
+  },
   btn: {
     minWidth: 76,
     minHeight: 36,
     paddingHorizontal: 16,
     borderRadius: 2,
+    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center'
   },
@@ -31,5 +35,8 @@ export default styles = StyleSheet.create({
         elevation: 2
       }
     })
+  },
+  loading: {
+    
   }
 });
