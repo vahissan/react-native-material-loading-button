@@ -21,7 +21,7 @@ If you need help adding custom font to a React Native project, refer [this artic
 
 ```javascript
 import React, { Component } from 'react';
-import MaterialButton from 'eact-native-material-loading-button';
+import MaterialButton from 'react-native-material-loading-button';
 
 ...
 
