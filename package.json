@@ -1,6 +1,6 @@
 {
   "name": "react-native-material-loading-button",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple material style button with 'Raised' (default) and 'Flat' styles, which supports a 'Loading' state which makes the user wait for the action to complete without affecting the user experience.",
   "main": "index.js",
   "scripts": {

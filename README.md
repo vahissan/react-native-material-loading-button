@@ -55,7 +55,7 @@ class Demo extends Component {
 | loadingText | This is be the button text next to the loading spinner if specified. Otherwise, value of "text" will be shown next to the loading spinner. | string | - |
 | disabled | Button will not be clickable and visually goes to "disabled" state if set to `true` | boolean | false |
 | style | Add a custom style to outer container of the button | object | - |
-| textStyle | Add a customer style to the button text | object | - |
+| textStyle | Add a custom style to the button text | object | - |
 
 ## License
 
