@@ -39,6 +39,9 @@ export default class MaterialButton extends PureComponent {
   renderLoadingAnim() {
     if (this.props.isLoading) {
       let color = this.props.flat ? this.props.color : '#ffffff';
+      if (this.props.hasOwnProperty('textStyle') && this.props.textStyle.hasOwnProperty('color')) {
+        color = this.props.textStyle.color
+      }
       return <ActivityIndicator color={color} style={styles.loading}/>;
     }
     return null;
