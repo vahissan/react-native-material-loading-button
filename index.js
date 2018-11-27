@@ -56,7 +56,7 @@ export default class MaterialButton extends PureComponent {
 
   render() {
     return (
-      <Ripple onPress={this.props.onPress} disabled={this.props.disabled || this.props.isLoading}>
+      <Ripple onPress={this.props.onPress} disabled={this.props.disabled || this.props.isLoading} style={this.props.containerStyle}>
         <View style={this.getButtonStyle()}>
           {this.renderLoadingAnim()}
           {this.renderText()}
@@ -72,8 +72,9 @@ MaterialButton.propTypes = {
   text: PropTypes.string,
   color: PropTypes.string,
   onPress: PropTypes.func,
-  style: PropTypes.number || PropTypes.object,
-  textStyle: PropTypes.number || PropTypes.object,
+  style: PropTypes.object,
+  textStyle: PropTypes.object,
+  containerStyle: PropTypes.object,
   disabled: PropTypes.bool,
   isLoading: PropTypes.bool,
   loadingText: PropTypes.string
